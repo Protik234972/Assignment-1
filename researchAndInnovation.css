@@ -25,6 +25,7 @@
 }
 
 nav ul{
+    
     background-color: rgb(40, 69, 199);
     display: flex;
     justify-content: start;
@@ -45,10 +46,107 @@ nav ul li a {
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
-    display: fl;
+    margin-left: 80px;
 }
 
 nav ul li a:hover {
     background-color: rgb(254, 254, 254);
     color: rgb(204, 118, 47);
+}
+
+.flex-body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.flex-item{
+    border: 2px solid whitesmoke;
+    background-color: lavender;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(7, 15, 52);
+}
+.flex-item img{
+    width: 450px;
+    border-radius: 10px;
+}
+.flex-item-img{
+    border: 2px solid whitesmoke;
+    background-color: lavender;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 600px;
+
+}
+.flex-item-img img{
+    width: 600px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1100px) {
+    .navbar{
+
+        font-size: 15px;
+        align-items: center;
+        display: flex;
+        width: fit-content;
+
+        width: 1100px ;
+
+    }
+    nav ul li a {
+        
+        margin-left: 0px;
+       
+
+    }
+    nav ul{
+    
+       width: 1050px;
+       display: flex;
+       justify-content: space-between;
+    }
+   
+    
+  }
+  @media only screen and (max-width: 1300px) {
+    .navbar{
+
+        font-size: 20px;
+        align-items: center;
+        display: flex;
+       
+
+    }
+    nav ul li a {
+        
+        margin-left: 0px;
+       
+
+    }
+    nav ul{
+    
+       width: 1250px;
+       display: flex;
+       justify-content: space-between;
+    }
+   
+    
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    position: flex;
+    width: 100%;;
+    height: 50px;
 }
